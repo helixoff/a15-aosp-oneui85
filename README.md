@@ -47,6 +47,8 @@ powershell -ExecutionPolicy Bypass -File .\tools\restore-ui.ps1 -BackupFile .\ba
 
 Open **A15 Launcher**, tap **Aa Import font**, and select a `.ttf` or `.otf` file you legally own. The font applies only inside A15 Launcher; stock OneUI does not provide a reliable unsigned API for replacing the system font.
 
+Russian step-by-step guide: [Google Sans on OneUI 8.5 without zFont](docs/GOOGLE_SANS_GUIDE_RU.md).
+
 ### 4. Optional: package the root-only system font module
 
 Copy your legally obtained font files into `module/payload/fonts/` using these names:
