@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A15 Launcher</string>
+    <string name="search_hint">Search apps</string>
+    <string name="no_apps">No matching apps</string>
+    <string name="import_font">Aa  Import font</string>
+    <string name="font_applied">Font imported. Launcher typography updated.</string>
+    <string name="font_failed">This font file could not be loaded.</string>
+</resources>
