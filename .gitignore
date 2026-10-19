@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+backups/
+dist/
+*.apk
+*.zip
+module/payload/fonts/*.ttf
+module/payload/fonts/*.otf
+!module/payload/fonts/.gitkeep
+!module/payload/fonts/README.md
