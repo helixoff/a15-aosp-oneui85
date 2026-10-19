@@ -31,3 +31,10 @@ jobs:
         run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
       - name: Build launcher
         run: gradle -p launcher :app:assembleDebug
+      - name: Upload launcher APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: a15-aosp-launcher-debug
+          path: launcher/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30
