@@ -1,0 +1,6 @@
+id=a15_aosp_surface
+name=A15 AOSP Surface - Google Sans Bridge
+version=0.1.0
+versionCode=1
+author=helixoff
+description=Systemless Google Sans mapping for Galaxy A15 on One UI 8.5. Font files are user-supplied and not distributed.
